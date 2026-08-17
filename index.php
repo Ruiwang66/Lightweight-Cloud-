@@ -5,7 +5,7 @@
  */
 
 // ================= 配置区域 =================
-$siteTitle = "锐王的极速云盘";
+$siteTitle = "极速云盘";
 $maxFileSize = 50 * 1024 * 1024;
 $maxStoredFiles = 500;
 $maxStorageSize = 5 * 1024 * 1024 * 1024;
