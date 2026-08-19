@@ -12,7 +12,7 @@ $maxStorageSize = 5 * 1024 * 1024 * 1024;
 
 // 推荐在服务器环境变量 CLOUD_DISK_ADMIN_PASSWORD_HASH 中配置 password_hash() 生成的值。
 // 下方仅保留原管理密码的不可逆哈希，浏览器端和 HTML 中不会出现密码或哈希。
-$adminPasswordHash = getenv('CLOUD_DISK_ADMIN_PASSWORD_HASH') ?: '$2y$10$RA.wKZzXht/P7YvcJT1fp.WF0rec.pTGG7RhMXXOtAL6VqkJLcnSC';
+$adminPasswordHash = getenv('CLOUD_DISK_ADMIN_PASSWORD_HASH') ?: '$2y$10$xOeRvrPKLRKQILgjiBxKtuPcLu3yAzdjfLoQTJ1MacHK6a8K8SjbC';
 
 // 采用白名单而非黑名单；文件会以无扩展名随机名称私有存储，并始终作为附件下载。
 $allowedExtensions = array_fill_keys([
